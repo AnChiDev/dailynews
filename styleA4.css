@@ -1,0 +1,81 @@
+/*mobile*/
+.row{
+    padding: 5px 0px;
+    margin: 0px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+
+h4, h5{
+    font-size: 16px;
+}
+
+#navbarmenu, #footer {
+    background-color: #dfe6e9!important;
+}
+#navbarmenu{
+    margin-bottom: 40px;
+}
+#footer{
+    margin-top: 40px;
+}
+.navbar-brand, .htext1, .htext1{
+    font-family: Arial; 
+    font-size : 1.2em;
+}
+#tinhot{width: 60%;}
+#navbarmenu li a,#navbarmenu .navbar-brand,.fa-search, .htext1,.htext2,.htext3,#footer a, #footer p{
+    color:#303952;
+}
+#navbarmenu a:hover, #footer a:hover{
+    color: rgb(122, 113, 113);
+}
+.endweb{
+    width:100%;
+    padding: 0 0% 0 5%;
+}
+#footer .borderft{
+    border-bottom: 2px solid #303952;
+    border-radius: 10%;
+    margin-bottom: 10%;
+}
+#ftend{
+    margin-right: 0;
+}
+#footer .formft{
+    background-color: #dfe6e9;
+    width:100%;
+} 
+#footer input[type=email]{
+    width: 65%;
+}
+#footer button{
+    width: 30%;
+    background-color: #dfe6e9;
+}
+#footer.text{
+    margin:0;
+}
+#ftend{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #navbarmenu{
+        font-size: 0.9em;
+    }
+    #tinhot{width: 30%;}
+}
